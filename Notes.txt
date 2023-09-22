@@ -1,0 +1,30 @@
+https://beautifytools.com/javascript-obfuscator.php#
+https://jsconsole.com/
+https://obfuscator.io/#code
+https://www.toptal.com/developers/javascript-minifier
+https://beautifier.io/
+https://codebeautify.org/jsviewer/
+http://www.jsnice.org/
+
+https://fr.wikipedia.org/wiki/XMLHttpRequest
+XHR => fonction javascript qui permet d'obtenir des données via requete HTTP.
+
+curl http://94.237.59.185:46519/serial.php/ -X POST -d "param1=sample"
+R: N2gxNV8xNV9hX3MzY3IzN19tMzU1NGcz
+
+most commonly used text encoding methods:
+   base64
+   hex
+   rot13
+echo N2gxNV8xNV9hX3MzY3IzN19tMzU1NGcz | base64 -d
+7h15_15_a_s3cr37_m3554g3
+
+curl -s http://94.237.59.185:46519/serial.php -X POST -d "serial=7h15_15_a_s3cr37_m3554g3"
+HTB{ju57_4n07h3r_r4nd0m_53r14l}
+
+curl -s http://94.237.56.76:56206/keys.php -X POST
+4150495f70336e5f37333537316e365f31355f66756e
+https://www.convertstring.com/fr/EncodeDecode/HexDecode -> hex decoder: API_p3n_73571n6_15_fun
+
+curl -s http://94.237.56.76:56206/keys.php -X POST -d "key=API_p3n_73571n6_15_fun"
+HTB{r34dy_70_h4ck_my_w4y_1n_2_HTB}
